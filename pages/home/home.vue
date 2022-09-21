@@ -97,7 +97,7 @@
           })
         })
         this.FloorList = res.message
-        console.log('this.FloorList', this.FloorList)
+        // console.log('this.FloorList', this.FloorList)
       }
     }
   }

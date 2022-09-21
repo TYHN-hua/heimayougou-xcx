@@ -15,7 +15,7 @@ fly.interceptors.response.use(
     //发生网络错误后会走到这里
     //return Promise.resolve("ssss")
     console.log(err)
-    toast.err('网络错误')
+    toast.err('网络错误了')
   }
 )
 

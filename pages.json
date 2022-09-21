@@ -1,31 +1,29 @@
 {
   "pages": [{
-      "path": "pages/home/home",
-      "style": {
-        "enablePullDownRefresh": false
-      }
-
-    }, {
-      "path": "pages/cate/cate",
-      "style": {
-        "enablePullDownRefresh": false
-      }
-
-    }, {
-      "path": "pages/cart/cart",
-      "style": {
-        "enablePullDownRefresh": false
-      }
-
-    }, {
-      "path": "pages/my/my",
-      "style": {
-        "enablePullDownRefresh": false
-      }
-
+    "path": "pages/home/home",
+    "style": {
+      "enablePullDownRefresh": false
     }
 
-  ],
+  }, {
+    "path": "pages/cate/cate",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+
+  }, {
+    "path": "pages/cart/cart",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+
+  }, {
+    "path": "pages/my/my",
+    "style": {
+      "enablePullDownRefresh": false
+    }
+
+  }],
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "黑马优购",
@@ -72,15 +70,14 @@
         "enablePullDownRefresh": false
       }
 
-    }    ,{
-                    "path" : "goods-list/goods-list",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
-                }
-            ]
+    }, {
+      "path": "goods-list/goods-list",
+      "style": {
+        "navigationBarTitleText": "商品列表",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 150
+      }
+
+    }]
   }]
 }
