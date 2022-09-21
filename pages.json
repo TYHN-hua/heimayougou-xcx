@@ -72,6 +72,15 @@
         "enablePullDownRefresh": false
       }
 
-    }]
+    }    ,{
+                    "path" : "goods-list/goods-list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
   }]
 }
